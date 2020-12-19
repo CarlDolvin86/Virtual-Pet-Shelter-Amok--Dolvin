@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VirtualPetTest" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-12-18T02:10:58" hostname="UNIT2020-25" time="0.02">
+  <properties/>
+  <testcase name="assertThatRobotCatIsAVirtualPet" classname="VirtualPetTest" time="0.004"/>
+  <testcase name="assertThatWalkMethodWorksForRobotDogHappiness" classname="VirtualPetTest" time="0.003"/>
+  <testcase name="assertThatOrganicDogIsADog" classname="VirtualPetTest" time="0.002"/>
+  <testcase name="assertThatWalkMethodWorksForOrganicDogHappiness" classname="VirtualPetTest" time="0.001"/>
+  <testcase name="assertThatFeedMakesHungerGoUpAndThirstGoDown" classname="VirtualPetTest" time="0.001"/>
+  <testcase name="assertThatOilLevelsIncreaseWithOilMethod" classname="VirtualPetTest" time="0.001"/>
+  <testcase name="assertThatFeedMakesHungerGoUp" classname="VirtualPetTest" time="0.001"/>
+  <testcase name="assertThatRobotDogIsADog" classname="VirtualPetTest" time="0.0"/>
+  <testcase name="assertThatCleanLitterBoxSetsLitterBoxTo0" classname="VirtualPetTest" time="0.002"/>
+  <testcase name="assertThatOilAllRobotsWorks" classname="VirtualPetTest" time="0.002"/>
+  <testcase name="assertThatOrganicCatIsAVirtualPet" classname="VirtualPetTest" time="0.0"/>
+  <testcase name="assertThatFeedMakesThirstGoUp" classname="VirtualPetTest" time="0.001"/>
+  <testcase name="assertThatCleanCageSetsWasteAmountTo0" classname="VirtualPetTest" time="0.001"/>
+  <system-out><![CDATA[      _
+        (_)
+       .-|-.
+      /  |  \__
+      \  |     '._
+         |\       '-._  ,_
+         | \        ,_'-/_`>
+        /  /        ( __ )
+  jgs  /_ /_        / > \ >
+ 
+      ___
+      (  /
+      / |
+     /  \
+    |   \\
+    |   |\\            //\\    /\_     //\\    /\_
+     \\\\ |           // _____/  _/   // _____/  _/
+      \\\\|____       |     |   /     |     |   /
+      ////|    | ==== ( ==__|==/ ==== ( ==__|==/
+     //// |    |       \ \   \ \       \ \   \ \
+=================/     / /    \ \      / /    \ \
+
+   __________________,.............,    
+   /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|
+  /_/_/_/_/_/_/_/,-' //  /-| / /--/ /
+ /_/_/_/_/_/_/,-' `-''--'  `' '--/ /
+/_/_/_/_/_/_,:................../ /
+|________,'                   hh|/
+         """""""""""""""""""""""'
+     _ 
+     [_] 
+  .--' `--.
+  | baby  |
+  |~~oil~~|
+  |       |
+  `-------' Krogg
+
+Made with REAL babies too....
+   __________________,.............,    
+   /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|
+  /_/_/_/_/_/_/_/,-' //  /-| / /--/ /
+ /_/_/_/_/_/_/,-' `-''--'  `' '--/ /
+/_/_/_/_/_/_,:................../ /
+|________,'                   hh|/
+         """""""""""""""""""""""'
+        (
+          )
+     __..---..__
+ ,-='  /  |  \  `=-.
+:--..___________..--;
+ \.,_____________,./
+ ||
+  ||
+  ||
+  ||
+  ||
+  ||
+  ||     Here you go, sweep
+  ||     that up..............
+ /||\
+/||||\
+======         __|__
+||||||        / ~@~ \
+||||||       |-------|
+||||||       |_______|
+     _ 
+     [_] 
+  .--' `--.
+  | baby  |
+  |~~oil~~|
+  |       |
+  `-------' Krogg
+
+Made with REAL babies too....
+     _ 
+     [_] 
+  .--' `--.
+  | baby  |
+  |~~oil~~|
+  |       |
+  `-------' Krogg
+
+Made with REAL babies too....
+  .   *   ..  . *  *
+*  * @()Ooc()*   o  .
+    (Q@*0CG*O()  ___
+   |\_________/|/ _ \
+   |  |  |  |  | / | |
+   |  |  |  |  | | | |
+   |  |  |  |  | | | |
+   |  |  |  |  | | | |
+   |  |  |  |  | | | |
+   |  |  |  |  | \_| |
+   |  |  |  |  |\___/
+   |\_|__|__|_/|
+    \_________/
+  .
+  .
+ . .
+  ...
+\~~~~~/
+ \   /
+  \ /
+   V
+   |
+   |
+  ---
+ ||
+  ||
+  ||
+  ||
+  ||
+  ||
+  ||     Here you go, sweep
+  ||     that up..............
+ /||\
+/||||\
+======         __|__
+||||||        / ~@~ \
+||||||       |-------|
+||||||       |_______|
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
