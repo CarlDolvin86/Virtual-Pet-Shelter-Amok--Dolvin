@@ -2,18 +2,18 @@ VirtualPet.java
  VirtualPet
 OrganicInterface.java
  OrganicInterface
-OrganicDog.java
- OrganicDog
+RobotCat.java
+ RobotCat
 RobotInterface.java
  RobotInterface
+OrganicCat.java
+ OrganicCat
 RobotDog.java
  RobotDog
 Dog.java
  Dog
-OrganicCat.java
- OrganicCat
-RobotCat.java
- RobotCat
+OrganicDog.java
+ OrganicDog
 VirtualPetShelter.java
  VirtualPetShelter
 VirtualPetShelterApp.java

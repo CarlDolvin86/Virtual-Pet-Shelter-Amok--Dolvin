@@ -26,21 +26,6 @@ public class OrganicDog extends Dog implements OrganicInterface {
 
 	public void cleanCage() {
 		amountOfWaste = 0;
-		System.out.println
-				(" ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||     Here you go, sweep\n" +
-				"  ||     that up..............\n" +
-				" /||\\\n" +
-				"/||||\\\n" +
-				"======         __|__\n" +
-				"||||||        / ~@~ \\\n" +
-				"||||||       |-------|\n" +
-				"||||||       |_______|");
 	}
 
 	@Override
@@ -48,13 +33,6 @@ public class OrganicDog extends Dog implements OrganicInterface {
 		hunger += createRandomFrom1ToInt(5);
 		thirst -= createRandomFrom1ToInt(5);
 		amountOfWaste += createRandomFrom1ToInt(4);
-		System.out.println
-				("        (\n" +
-				"          )\n" +
-				"     __..---..__\n" +
-				" ,-='  /  |  \\  `=-.\n" +
-				":--..___________..--;\n" +
-				" \\.,_____________,./");
 	}
 
 	@Override
@@ -62,18 +40,6 @@ public class OrganicDog extends Dog implements OrganicInterface {
 		thirst += createRandomFrom1ToInt(5);
 		hunger -= createRandomFrom1ToInt(5);
 		amountOfWaste += createRandomFrom1ToInt(4);
-		System.out.println
-				("  .\n" +
-				"  .\n" +
-				" . .\n" +
-				"  ...\n" +
-				"\\~~~~~/\n" +
-				" \\   /\n" +
-				"  \\ /\n" +
-				"   V\n" +
-				"   |\n" +
-				"   |\n" +
-				"  ---");
 	}
 
 	@Override
@@ -124,18 +90,6 @@ public class OrganicDog extends Dog implements OrganicInterface {
 	public void walk() {
 		super.walk();
 		amountOfWaste -= createRandomFrom1ToInt(3);
-		System.out.println
-				("      ___\n" +
-				"      (  /\n" +
-				"      / |\n" +
-				"     /  \\\n" +
-				"    |   \\\\\n" +
-				"    |   |\\\\            //\\\\    /\\_     //\\\\    /\\_\n" +
-				"     \\\\\\\\ |           // _____/  _/   // _____/  _/\n" +
-				"      \\\\\\\\|____       |     |   /     |     |   /\n" +
-				"      ////|    | ==== ( ==__|==/ ==== ( ==__|==/\n" +
-				"     //// |    |       \\ \\   \\ \\       \\ \\   \\ \\\n" +
-				"=================/     / /    \\ \\      / /    \\ \\\n");
 	}
 
 	@Override

@@ -51,34 +51,12 @@ public class OrganicCat extends VirtualPet implements OrganicInterface {
 	public void feed() {
 		hunger += createRandomFrom1ToInt(5);
 		thirst -= createRandomFrom1ToInt(5);
-		System.out.println
-				("   __________________,.............,    \n" +
-				"   /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|\n" +
-				"  /_/_/_/_/_/_/_/,-' //  /-| / /--/ /\n" +
-				" /_/_/_/_/_/_/,-' `-''--'  `' '--/ /\n" +
-				"/_/_/_/_/_/_,:................../ /\n" +
-				"|________,'                   hh|/\n" +
-				"         \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"'");
 	}
 
 	@Override
 	public void water() {
 		thirst += createRandomFrom1ToInt(5);
 		hunger -= createRandomFrom1ToInt(5);
-		System.out.println
-				("  .   *   ..  . *  *\n" +
-				"*  * @()Ooc()*   o  .\n" +
-				"    (Q@*0CG*O()  ___\n" +
-				"   |\\_________/|/ _ \\\n" +
-				"   |  |  |  |  | / | |\n" +
-				"   |  |  |  |  | | | |\n" +
-				"   |  |  |  |  | | | |\n" +
-				"   |  |  |  |  | | | |\n" +
-				"   |  |  |  |  | | | |\n" +
-				"   |  |  |  |  | \\_| |\n" +
-				"   |  |  |  |  |\\___/\n" +
-				"   |\\_|__|__|_/|\n" +
-				"    \\_________/");
 	}
 
 	@Override

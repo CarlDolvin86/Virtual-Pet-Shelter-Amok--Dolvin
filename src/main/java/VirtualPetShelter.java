@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class VirtualPetShelter {
 
-	protected Map<String, VirtualPet> virtualPets = new HashMap<String, VirtualPet>();
+	protected Map<String, VirtualPet> virtualPets = new HashMap<>();
 	private int litterBoxLevel = 15;
 
 	public Collection<VirtualPet> petInfo() {
@@ -25,37 +25,12 @@ public class VirtualPetShelter {
 
 	public void cleanLitterBox() {
 		litterBoxLevel = 0;
-		System.out.println
-				(" ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||\n" +
-				"  ||     Here you go, sweep\n" +
-				"  ||     that up..............\n" +
-				" /||\\\n" +
-				"/||||\\\n" +
-				"======         __|__\n" +
-				"||||||        / ~@~ \\\n" +
-				"||||||       |-------|\n" +
-				"||||||       |_______|");
 	}
 
 	public void oilAllRobotPets() {
 		for (VirtualPet current : virtualPets.values()) {
 			if (current instanceof RobotInterface) {
 				((RobotInterface) current).oilRobotPets();
-				System.out.println
-						("     _ \n" +
-						"     [_] \n" +
-						"  .--' `--.\n" +
-						"  | baby  |\n" +
-						"  |~~oil~~|\n" +
-						"  |       |\n" +
-						"  `-------' Krogg\n" +
-						"\n" +
-						"Made with REAL babies too....");
 			}
 		}
 	}
@@ -64,21 +39,6 @@ public class VirtualPetShelter {
 		for (VirtualPet current : virtualPets.values()) {
 			if (current instanceof OrganicDog) {
 				((OrganicDog) current).cleanCage();
-				System.out.println
-						(" ||\n" +
-						"  ||\n" +
-						"  ||\n" +
-						"  ||\n" +
-						"  ||\n" +
-						"  ||\n" +
-						"  ||     Here you go, sweep\n" +
-						"  ||     that up..............\n" +
-						" /||\\\n" +
-						"/||||\\\n" +
-						"======         __|__\n" +
-						"||||||        / ~@~ \\\n" +
-						"||||||       |-------|\n" +
-						"||||||       |_______|");
 			}
 		}
 	}
@@ -98,12 +58,6 @@ public class VirtualPetShelter {
 		for (VirtualPet currentCat : virtualPets.values()) {
 			if (currentCat instanceof OrganicCat) {
 				litterBoxLevel += 2;
-				System.out.println
-						("// \"\"--.._\n" +
-						"||  (_)  _ \"-._\n" +
-						"||    _ (_)    '-.\n" +
-						"||   (_)   __..-'\n" +
-						" \\\\__..--\"\"");
 			}
 		}
 	}

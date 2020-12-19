@@ -52,13 +52,45 @@ public class VirtualPetShelterApp {
             if (selection == 1) {
                 System.out.println("You have fed all of the live pets.");
                 virtualPet.feedAllOrganic();
+                System.out.println
+                               ("   __________________,............., \n" +
+                                "   /_/_/_/_/_/_/_/_/,-',  ,. -,-,--/|\n" +
+                                "  /_/_/_/_/_/_/_/,-' //  /-| / /--/ /\n" +
+                                " /_/_/_/_/_/_/,-' `-''--'  `' '--/ /\n" +
+                                "/_/_/_/_/_/_,:................../ /\n" +
+                                "|________,'                   hh|/\n" +
+                                "         \"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"'");
             }
             if (selection == 2) {
                 System.out.println("You have given all of the live pets water.");
+                System.out.println
+                               ("  .   *   ..  . *  *\n" +
+                                "*  * @()Ooc()*   o  .\n" +
+                                "    (Q@*0CG*O()  ___\n" +
+                                "   |\\_________/|/ _ \\\n" +
+                                "   |  |  |  |  | / | |\n" +
+                                "   |  |  |  |  | | | |\n" +
+                                "   |  |  |  |  | | | |\n" +
+                                "   |  |  |  |  | | | |\n" +
+                                "   |  |  |  |  | | | |\n" +
+                                "   |  |  |  |  | \\_| |\n" +
+                                "   |  |  |  |  |\\___/\n" +
+                                "   |\\_|__|__|_/|\n" +
+                                "    \\_________/");
                 virtualPet.waterAllOrganic();
             }
             if (selection == 3) {
                 System.out.println("You have oiled up all of the robo-pets.");
+                System.out.println
+                                ("     _ \n" +
+                                "     [_] \n" +
+                                "  .--' `--.\n" +
+                                "  | baby  |\n" +
+                                "  |~~oil~~|\n" +
+                                "  |       |\n" +
+                                "  `-------' \n" +
+                                "\n" +
+                                "Made with REAL babies too....");
                 virtualPet.oilAllRobotPets();
             }
             String name = "";
@@ -93,7 +125,7 @@ public class VirtualPetShelterApp {
                 String description = input.nextLine();
                 System.out.println(
                         "What kind of animal is " + name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase()
-                                + "\n1. Organic Dog" + "\n2. Organic Cat" + "\n3. Robot Cat" + "\n4. Robot Dog");
+                                + "\n1. Organic Dog" + "\n2. Organic Cat" + "\n3. Robot Dog" + "\n4. Robot Cat");
                 int choice = input.nextInt();
                 while (choice < 1 || choice > 4) {
                     System.out.println("You have entered an invalid choice.");
@@ -105,14 +137,55 @@ public class VirtualPetShelterApp {
             }
             if (selection == 7) {
                 System.out.println("You have cleaned all of the dogs cages. Thanks!");
+                System.out.println
+                                (" ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||     Here you go, sweep\n" +
+                                "  ||     that up..............\n" +
+                                " /||\\\n" +
+                                "/||||\\\n" +
+                                "======         __|__\n" +
+                                "||||||        / ~@~ \\\n" +
+                                "||||||       |-------|\n" +
+                                "||||||       |_______|");
                 virtualPet.cleanAllCages();
             }
             if (selection == 8) {
                 System.out.println("Thanks for taking the dogs for a walk!");
+                System.out.println
+                               ("         _\n" +
+                                "        (_)\n" +
+                                "       .-|-.\n" +
+                                "      /  |  \\__\n" +
+                                "      \\  |     '._\n" +
+                                "         |\\       '-._  ,_\n" +
+                                "         | \\        ,_'-/_`>\n" +
+                                "        /  /        ( __ )\n" +
+                                "       /_ /_        / > \\ >\n" +
+                                " ");
                 virtualPet.walkAllDogs();
             }
             if (selection == 9) {
                 System.out.println("You have cleaned the litter box. Thanks!");
+                System.out.println
+                                (" ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||\n" +
+                                "  ||     Here you go, sweep\n" +
+                                "  ||     that up..............\n" +
+                                " /||\\\n" +
+                                "/||||\\\n" +
+                                "======         __|__\n" +
+                                "||||||        / ~@~ \\\n" +
+                                "||||||       |-------|\n" +
+                                "||||||       |_______|");
                 virtualPet.cleanLitterBox();
             }
             if (selection == 10) {
